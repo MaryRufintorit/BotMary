@@ -37,7 +37,7 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
             {"role": "user", "content": user_text}
         ]
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-3.5-turbo",
             messages=messages
         )
         translated = response["choices"][0]["message"]["content"]
