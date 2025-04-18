@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 TELEGRAM_TOKEN = "8169196910:AAFs4o08KZOCzMI5FvmEkwuxmeYlJa66SSI"
 
 SYSTEM_PROMPT = """
