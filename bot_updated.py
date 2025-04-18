@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 import openai
 
 openai.api_key = "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"
-TELEGRAM_TOKEN = "6439744031:AAE4VLTEKR81Vp3rTkp6uAqvoF_z3EP8RZk"
+TELEGRAM_TOKEN = "8169196910:AAFs4o08KZOCzMI5FvmEkwuxmeYlJa66SSI"
 
 SYSTEM_PROMPT = """
 Ты — переводчик. Пользователь будет отправлять текст на одном из 4 языков: русском, французском, арабском (диалект), бамбара.
